@@ -8,6 +8,7 @@ public class Main {
         for(Book book:books){
             if(book instanceof Book){
                 System.out.println(book.name);
+                book.print();
             }
         }
         System.out.println();
@@ -18,6 +19,7 @@ Magazine[]magazines={magazine1,magazine2};
 for(Magazine magazine:magazines){
     if(magazine instanceof Magazine){
         System.out.println(magazine.name);
+        magazine.print();
     }
 }
         }
